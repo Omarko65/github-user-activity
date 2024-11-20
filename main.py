@@ -5,13 +5,13 @@ import requests
 def parse_command(command_str):
     parser = argparse.ArgumentParser(description="Github User Activity Tracker")
     parser.add_argument("username", type=str, help="A unique identifier for the task")
-    parser.add_argument("activity", type=str, nargs="?", choices=["Refresh", "ListAll"], help="Filter activity by event type")
+    parser.add_argument("activity", type=str, nargs="?", choices=["Refresh", "ListAll"], help="Refresh Cache, ListAll activities, or list activity by event type")
 
     command_args = command_str.split()
     args = parser.parse_args(command_args)
     return args
 
-cached_data = TTLCache(maxsize=3, ttl=120)
+cached_data = TTLCache(maxsize=3, ttl=900)
 
 @cached(cache=cached_data)
 def get_activity(url):

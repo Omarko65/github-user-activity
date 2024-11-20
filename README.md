@@ -88,4 +88,4 @@ Github user-activity CLI is a command line tool to fetch the recent activity of 
 
 
 ## CC
-https://roadmap.sh/projects/task-tracker
+https://roadmap.sh/projects/github-user-activity

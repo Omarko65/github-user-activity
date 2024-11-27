@@ -58,12 +58,6 @@ Github user-activity CLI is a command line tool to fetch the recent activity of 
   # Output: list activities of user
   ```
 
-- **Fetch activity of a user based on event**:
-
-  ```bash
-  github-activity omarko65 [WatchEvent, CreateEvent, DeleteEvent, PullRequestEvent, ...]
-  # Output: List of activities based on selected event
-  ```
 
 - **Fetach all activity**:
 
@@ -79,6 +73,12 @@ Github user-activity CLI is a command line tool to fetch the recent activity of 
  # Output: Activities refreshed successfully
  ```
 
+- **Fetch activity of a user based on event**:
+
+  ```bash
+  github-activity omarko65 [WatchEvent, CreateEvent, DeleteEvent, PullRequestEvent, ...]
+  # Output: List of activities based on selected event
+  ```
 
   - **Exiting**:
   ```bash

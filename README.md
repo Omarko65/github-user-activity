@@ -80,7 +80,7 @@ Github user-activity CLI is a command line tool to fetch the recent activity of 
   # Output: List of activities based on selected event
   ```
 
-  - **Exiting**:
+- **Exiting**:
   ```bash
   github-activity exit
   # Output: Goodbye!!!

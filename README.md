@@ -17,6 +17,7 @@ Github user-activity CLI is a command line tool to fetch the recent activity of 
 
 - **Activity Filter**: Github activities can be filtered using event types [Visit GitHub Events Documentation](https://github.comhttps://docs.github.com/en/rest/using-the-rest-api/github-event-types).
 - **Activity Cache**: Activities are cached using TTLCache to improve performance.
+- **Activity Sorting**: Activities are sorted to provide readability for users.
 
 ###  Installation
   Ensure you have **Python** Installed
